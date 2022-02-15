@@ -1,0 +1,297 @@
+body{
+    font-family: "Lato", sans-serif;
+}
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 199;
+}
+.header>ul {
+    display: flex;
+}
+.header li a{
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.header li a:hover{
+    background-color: #B6B6B4;
+    color:black;
+}
+.menu>li:hover .more-slide{
+    display: block;
+}
+.more-slide{
+    position: absolute;
+    background-color:white ;
+    display: none;
+}
+.more-slide li a{
+    color: black;
+}
+.header .search{
+    display: block;
+    color: white;
+    width: 56px;
+    line-height: 46px;
+    text-decoration: none;
+    text-align: center;
+}
+.header .search:hover{
+    background-color: red;
+}
+
+.swiper {
+    width: 1519;
+    height: 759px;
+    margin-top: 40px;
+}
+
+.content{
+    width: 800px;
+    margin: 80px auto;
+}
+.content h1{
+    letter-spacing: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+.content>span{
+    display: block;
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+    font-style: oblique;
+    margin: 30px 0px 20px;
+}
+.content p{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.content .member{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.member img{
+    width: 154px;
+    height: 154px;
+}
+.member h2{
+    padding: 20px;
+    text-align: center;
+}
+
+.ticket{
+    background-color: black;
+    padding: 84px 100px;
+}
+.ticket h2{
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.ticket>span{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+    font-style: oblique;
+}
+.date{
+    width: 768px;
+    margin: 40px auto;
+}
+.date li{
+    background-color: white;
+    padding: 8px 16px;
+    color: gray;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.6);
+}
+.date li>span{
+    display: inline-block;
+    padding: 5px 8px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+.date-November{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.date .date-November>span{
+    margin-right: 10px;
+    padding: 0 8px;
+    justify-content: flex-end;
+    width: 8px;
+    height: 22px;
+    line-height: 22px;
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+}
+.ticket-buy{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ticket-buy li{
+    width: 245px;
+}
+
+.ticket-buy li>img{
+    height: 183px;
+    vertical-align: bottom;
+}
+.ticket-buy li>img:hover{
+    opacity: 60%;
+}
+.ticket-buy li div{
+    background-color: white;
+    padding: 20px 15px;
+
+}   
+.ticket-buy li div h3{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.ticket-buy li div span{
+    display: block;
+    margin-bottom: 20px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.ticket-buy li div p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.ticket-buy li div a{
+    display: block;
+    width: 76px;
+    line-height: 22px;
+    padding:8px 16px ;
+    font-size: 15px;
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.ticket-buy li div a:hover{
+    color: black;
+    background-color: #B6B6B4;
+}
+.contact-us{
+    width: 800px;
+    margin: 100px auto;
+}
+
+.contact-us h2{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.contact-us>span{
+    display: block;
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+    font-style: oblique;
+}
+.info-contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0px 20px;
+}
+.info-contact li {
+    line-height: 1.5;
+    font-size: 18px;
+}
+.info > li> a{
+    text-decoration: none;
+    color: black;
+}
+.info > li> a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.fa-map-marker-alt::before{
+    margin-right: 18px;
+}
+
+.fa-phone-alt::before,.fa-envelope::before{
+    margin-right: 15px;
+}
+.contact-form input{
+    padding: 8px;
+    height: 24px;
+    border: 1px solid rgba(128, 128, 128, 0.6);
+}
+.contact-form input[type="text"]{
+    margin-right: 12px;
+    width: 166px;
+}
+.info-contact .contact-form .message{
+    display: block;
+    width: 365px;
+    margin: 10px 0px;
+}
+.contact-form-bt{
+    display: flex;
+    justify-content: flex-end;
+}
+.contact-form input[type="submit"]{
+    font-size: 15px;
+    width: 72px;
+    height: 38px;
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+}
+.contact-form input[type="submit"]:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.ft-icon{
+    padding: 64px 16px;
+    text-align: center;
+}
+.ft-icon a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    opacity: 60%;
+}
+.ft-icon a:hover{
+    opacity: 40%;
+}
+.ft-icon span{
+    display: block;
+    margin: 15px 0px;
+    font-size: 15px;
+}
+.ft-icon>span>a{
+    font-size: 15px;
+}
+.ft-icon>span>a:hover{
+    opacity: 80%;
+    text-decoration: underline;
+}

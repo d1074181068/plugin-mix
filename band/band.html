@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="./css/band.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'/>
+    
+</head>
+<body>
+    <div class="header">
+        <ul class="menu">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#band">BAND</a></li>
+            <li><a href="#ticket">TOUR</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li>
+                <a href="#">
+                    MORE
+                    <i class="fas fa-caret-down"></i>
+                </a>
+                <ul class="more-slide">
+                    <li><a href="#">Merchandise</a></li>
+                    <li><a href="#">Extras</a></li>
+                    <li><a href="#">Media</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a class="search" href="#"></a>
+    </div>
+    <div class="banner" id="banner">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./images/banner1.jpg" alt="banner圖-New York">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/banner2.jpg" alt="banner圖-Chicago">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/banner3.jpg" alt="banner圖-Los Angeles">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+        </div>
+    </div>
+    <div class="content" id="band">
+        <h1>THE BAND</h1>
+        <span>We love music</span>
+        <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <ul class="member">
+            <li>
+                <h2>Name</h2>
+                <img src="./images/band-member.jpg" alt="樂團成員圖">
+            </li>
+            <li>
+                <h2>Name</h2>
+                <img src="./images/band-member.jpg" alt="樂團成員圖">
+            </li>
+            <li>
+                <h2>Name</h2>
+                <img src="./images/band-member.jpg" alt="樂團成員圖">
+            </li>
+        </ul>
+    </div>
+    <div class="ticket" id="ticket">
+        <h2>TOUR DATES</h2>
+        <span>Remember to book your tickets!</span>
+        <ul class="date">
+            <li class="date-September">September <span>Sold out</span></li>
+            <li class="date-October">October <span>Sold out</span></li>
+            <li class="date-November">November <span>3</span></li>
+        </ul>
+        <ul class="ticket-buy">
+            <li>
+                <img src="./images/ticket-new york.jpg" alt="紐約票圖">
+                <div class="NewYork-ticket">
+                    <h3>New York</h3>
+                    <span>Fri 27 Nov 2016</span>
+                    <p>
+                        Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                    </p>
+                    <a href="#">BuyTickets</a>
+                </div>
+                
+            </li>
+            <li>
+                <img src="./images/ticket-paris.jpg" alt="巴黎票圖">
+                <div class="paris-ticket">
+                    <h3>Paris</h3>
+                    <span>Sat 28 Nov 2016</span>
+                    <p>
+                        Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                    </p>
+                    <a href="#">BuyTickets</a>
+                </div>
+            </li>
+            <li>
+                <img src="./images/ticket-San Francisco.jpg" alt="舊金山票圖">
+                <div class="SanFrancisco-ticket">
+                    <h3>San Francisco</h3>
+                    <span>Sun 29 Nov 2016</span>
+                    <p>
+                        Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                    </p>
+                    <a href="#">BuyTickets</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="contact-us" id="contact">
+        <h2>CONTACT</h2>
+        <span>Fan? Drop a note!</span>
+        <div class="info-contact">
+            <ul class="info">
+                <li>
+                    <i class="fas fa-map-marker-alt"></i>
+                    Chicago, US
+                </li>
+                <li>
+                    <i class="fas fa-phone-alt"></i>
+                    Phone: 
+                    <a href="tel:+00 151515">+00 151515</a>
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    Email:
+                    <a href="mailto:mail@mail.com">mail@mail.com</a>
+                     
+                </li>
+            </ul>
+            <form class="contact-form" action="band.html">
+                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="email" name="mail" id="mail" placeholder="E-mail">
+                <input class="message" type="text" name="message" id="message" placeholder="Message">
+                <div class="contact-form-bt">
+                    <input type="submit" value="SEND">
+                </div>
+                
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <img src="./images/footer.jpg" alt="footer圖片">
+        <div class="ft-icon">
+            <a href="#">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-snapchat"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-pinterest-p"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <span>Powered by <a href="#">w3.css</a></span>
+        </div>
+    </div>
+
+    <script src="../jquery-3.6.0.js"></script>
+    <script src="./js/band.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>
